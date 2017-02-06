@@ -1,0 +1,25 @@
+.box {
+	height: 400px;
+	border: #f8f8f8 solid 1px;
+	float: left;
+    min-width: 1050px;
+}
+.box div {
+	text-align: center;
+	margin-top: 150px;
+	padding-top: 30px;
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin-right: 50px;
+	background: #0085d0;
+	font-size: -webkit-xxx-large;
+	color: white;
+}
+.box .div1 {
+	margin-left: 300px;
+}
+.box .div1,.div2,.div3 {
+	cursor: pointer;
+	font-size: 40px;
+}

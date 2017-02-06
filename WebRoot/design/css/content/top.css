@@ -1,0 +1,60 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:arial,"微软雅黑";
+	background-color: #f8f8f8;
+}
+div, ul {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5em;
+}
+.top {
+	height: 40px;
+	border-bottom: #dddcdc solid 1px;
+	min-width: 1300px;
+    background: #f8f8f8;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+ .top .logo {
+	width: 155px;
+    float: left;
+    height: 100%;
+    border-right: solid 1px #cccccc;
+    cursor: pointer;
+    text-align: center;
+}
+ .top .logo img {
+	margin-top: 3px;
+}
+.top .title {
+	font-size: 28px;
+	color: #0085d0;
+	float: left;
+    line-height: 40px;
+}
+.top .user {
+    font-size: 20px;
+    position: fixed;
+    height: 40px;
+    right: 0px;
+    left: 578px;
+    min-width: 103px;
+}
+.top .user a {
+	margin-left: 10px;
+	position: relative;
+	float: right;
+	line-height: 40px;
+	color: #0085d0;
+	font-size: 12px;
+}
+.top .user .define {
+	display: none;
+}
+.user a:hover {
+	width: auto;
+	opacity: 0.6;
+}

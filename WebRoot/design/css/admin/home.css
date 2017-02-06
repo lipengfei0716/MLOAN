@@ -1,0 +1,31 @@
+.home .content {
+    min-width: 1340px;
+    width:100%;
+    float: left;
+    margin-top: 41px;
+}
+
+.home .content .right {
+	float: left;
+    min-width: 1180px;
+    width: 88%;
+    margin-left: 155px;
+    background: white;
+    margin-bottom: 18px;
+}
+
+.home .content .right .home_mainform {
+	background-color: #ffffff;
+	clear: both;
+	height: auto;
+	min-height: 420px;
+    margin-top: 32px;
+    margin-bottom: 18px;
+}
+
+.home .content .right .home_mainform .copyright {
+	text-align: center;
+	font-style: normal;
+	color: #999;
+	margin-bottom: 0px;
+}

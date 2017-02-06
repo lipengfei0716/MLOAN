@@ -1,0 +1,29 @@
+.setup_left {
+	min-width: 155px;
+	background-color: #f8f8f8;
+	float: left;
+	height: 560px;
+    width: 10%;
+}
+.setup_left dl {
+	margin-top: 50px;
+}
+.setup_left dl dd {
+	font-size: 18px;
+    float: right;
+    width: 163px;
+    text-align: center;
+}
+.setup_left dl dd a {
+	padding: 10px 0px 10px 30px;
+	color: #ffffff;
+	display: block;
+	background:#0089C7;
+	text-decoration: none;
+	border-bottom: #c1c5c7 solid 1px;
+}
+.setup_left dl dd a:hover {
+	padding: 10px 0px 10px 30px;
+	border-left: #f8f8f8 solid 10px;
+	color: #0000ff; url (././img/index/ico_arrowA.gif);
+}

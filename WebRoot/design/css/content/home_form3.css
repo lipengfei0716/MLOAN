@@ -1,0 +1,84 @@
+.home_form3{height: 533px;}
+.home_form3 span{display:block;font-size:14px;text-decoration:blink}
+
+.home_form3 .norm{border-top:0;margin:auto;display:block;border: solid 0px;height: 425px;margin-left: 5px;margin-right: 5px;}
+.home_form3 .norm .table1,.table2 {float:left;min-width:1090px;position:relative;min-height:5px;width: 100%;}
+
+.home_form3 .comm,.indiv{display:block;float:left;min-width:1130px;min-height:230px;float: left;background: white;}
+
+.home_form3 .comm .table1 .tb1{float:left;font-size:12px;width: 100%;background: white;}
+.home_form3 .comm .table1 .tb1De{display:none;cursor: default;width: 1829px;color: blue;}
+.home_form3 .comm .table1 .tb1De .tb1DeTen{cursor:pointer;font-size:14px;line-height: 30px;}
+.home_form3 .comm .table1Info .tb1Detail{margin-top: -20px;border:1px solid #cccccc;float:left;font-size:12px;white-space:nowrap;background: white;}
+
+.home_form3 .comm .table1Info .contr1 img{cursor: pointer;}
+
+.home_form3 .comm .table2 .tb2{border:1px solid white;min-width:1090px;min-height:30px;float:left}
+.home_form3 .comm table td{min-width:30px;max-width:470px;padding-right: 6px;}
+.home_form3 .comm table th{border-top:1px solid #f8f8f8;border-left:1px solid #f8f8f8;min-width:30px;text-align:center;background:#0089c7}
+.home_form3 .comm .table1Info .contr1,.contr2{float:right;width: 30px;}
+.home_form3 .comm .table1Info .contr1 img{margin-top: 5px;}
+.home_form3 .comm .table1Info .contr2 img{margin-top: 5px;}
+.home_form3 .comm .tag1,.tag2{max-height: 150px;font-size:8px;float:right;overflow:auto;background:#f8f8f8;position:absolute;width:185px;}
+
+.home_form3 .charts{border-top:0;margin:auto;display:none;border: solid 0px;margin-left: 5px;margin-right: 5px;width:100%;float: left;min-height: 230px;background: white;max-width:1150px;}
+
+.home_form3 .charts .use{width:1150px;height:400px;float:left;border: solid 1px #ccc;margin-top: 5px;}
+.home_form3 .charts .use1{width:565px;height:400px;float:left;border: solid 1px #ccc;margin-top: 5px;margin-bottom:5px;}
+.home_form3 .charts .use2{width:565px;height:400px;float:left;border: solid 1px #ccc;margin-left: 15px;margin-top: 5px;margin-bottom:5px;}
+
+.home_form3 .indiv table{border:1px solid white;min-width:1070px;min-height:30px;float:left}
+.home_form3 .indiv table td{border:1px solid #000;min-width:30px;text-align:left;max-width:470px;overflow:auto}
+.home_form3 .indiv table th{border:1px solid #000;min-width:30px;text-align:center;background:#8ba5d7}
+
+.home_form3 .model{border-top:0;min-height:100px;background-color:#fff;display:none;height:50px;min-height:500px;width:1000px;margin:auto}
+.home_form3 .model span{font-size:30px;line-height:50px}
+.home_form3 .model .temp{border:#c0c0c0 solid 2px;display:block;height:130px}
+.home_form3 .model .temp .box{padding:0;margin:0;overflow:auto;width:100px;width:100%;height:inherit}
+.home_form3 .model .temp .box li{float:left;width:100px;height:80px;margin-right:10px;list-style:none}
+.home_form3 .model .temp .box li img{border:0;width:100px;height:100px}
+.home_form3 .model .report,.edit{display:block;height:100px}
+.home_form3 .model .report{height:100px}
+.home_form3 .model .report span{font-size:25px}
+.home_form3 .model .report div{background:#0085d0;float:left;width:100px;display:block;font-size:x-large;text-align:-webkit-center}
+.home_form3 .model .report input{float:left;margin-top:20px}
+.home_form3 .model .edit span{font-size:25px}
+.home_form3 .model .edit form .build{float:right;width:200px;height:45px;font-size:30px;margin-top:50px}
+
+.home_form3 .boxrule{display:none}
+.home_form3 .boxrule+label{line-height: 10px;background-color:#FFF;border:1px solid #c1caca;padding:5px;border-radius:2px;display:inline-block;position:relative;margin-right:10px;box-shadow:0 1px 2px rgba(0,0,0,0.05),inset 0 -15px 10px -12px rgba(0,0,0,0.05)}
+.home_form3 .boxrule+label:active{box-shadow:0 1px 2px rgba(0,0,0,0.05),inset 0 1px 3px rgba(0,0,0,0.1)}
+.home_form3 .boxrule:checked+label{background-color:#ecf2f7;border:1px solid #92a1ac;color:#243441;box-shadow:0 1px 2px rgba(0,0,0,0.05),inset 0 -15px 10px -12px rgba(0,0,0,0.05),inset 15px 10px -12px rgba(255,255,255,0.1)}
+.home_form3 .boxrule:checked+label:after{content:'\2714';position:absolute;top:0;left:0;color:#758794;width:100%;text-align:center;font-size:1.4em;padding:1px 0 0 0;vertical-align:text-top}
+a:link,a:visited{text-decoration:none;  /*超链接无下划线*/}
+a:hover{text-decoration:underline;  /*鼠标放上去有下划线*/}
+.tb1DeTen:link{ color:#000000; }
+.tb1DeTen:hover{ color:#0000ff; }
+
+/* blue */
+.blue {
+	width: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+	font-size:13px;
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}

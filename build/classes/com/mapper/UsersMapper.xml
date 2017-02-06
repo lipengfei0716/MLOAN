@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.UsersMapper">
+  
+  <insert id="insertUsers" parameterType="java.util.Map">
+    INSERT INTO tbl_Users ([username],[password]) VALUES (#{username},#{password})
+    <selectKey keyProperty="id" resultType="int" order="AFTER">
+            select @@identity
+        </selectKey>
+  </insert>
+  
+  <select id="deleteUsers" parameterType="java.lang.Integer">
+    delete from tbl_Users where id = #{id}
+  </select>
+  
+  <update id="updateUsers" parameterType="com.po.Users" statementType="PREPARED">
+    update tbl_Users
+    <set>
+      <if test="username != null">username = #{username},</if>
+      <if test="password != null">password = #{password},</if>
+    </set>
+    where id = #{id}
+  </update>
+  
+  <select id="searchUsers" parameterType="java.util.Map" resultType="com.po.Users">
+    select * from tbl_Users
+  </select>
+  
+  <select id="searchUsersByUsername" parameterType="java.lang.String" resultType="com.po.Users">
+    select * from tbl_Users where username like '%${_parameter}%'
+  </select>
+  
+  <select id="searchUsersById" parameterType="java.lang.Integer" resultType="com.po.Users">
+    select * from tbl_Users where id = #{id}
+  </select>
+  
+  <select id="getUserByUsernameAndPassword" parameterType="java.util.Map" resultType="com.po.Users">
+    select * from tbl_Users where username=#{username} and password=#{password} 
+  </select>
+</mapper>

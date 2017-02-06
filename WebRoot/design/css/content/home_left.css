@@ -1,0 +1,30 @@
+.home_left {
+	min-width: 155px;
+	background-color: #f8f8f8;
+	float: left;
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.home_left dl {
+	margin-top: 50px;
+}
+.home_left dl dd {
+	font-size: 18px;
+    float: right;
+    width: 163px;
+    text-align: center;
+}
+.home_left dl dd a {
+	padding: 10px 0px 10px 30px;
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	border-bottom: #c1c5c7 solid 1px;
+}
+.home_left dl dd a:hover {
+	padding: 10px 0px 10px 30px;
+	border-left: #f8f8f8 solid 10px;
+	color: #0000ff; url (././img/index/ico_arrowA.gif);
+}

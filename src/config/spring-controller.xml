@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						   http://www.springframework.org/schema/beans/spring-beans.xsd
+						   http://www.springframework.org/schema/context
+						   http://www.springframework.org/schema/context/spring-context-4.3.xsd
+						   http://www.springframework.org/schema/mvc
+						   http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd 
+						   http://www.springframework.org/schema/tx
+						   http://www.springframework.org/schema/tx/spring-tx-4.3.xsd ">
+					
+ 	<!-- —————————————————————————————————————4—————————————————————————————— -->
+ 	<!--缺省映射处理器，不需要明确声明，但声明后就非常清楚使用的是哪个映射处理器 -->
+    <!-- <bean id="beanNameUrlMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/> -->
+    <!-- 这里的name属性有两个职责，既定义Bean的名字，也定义需要这个控制器处理的URL样式 -->
+    <!-- <bean name="/hello.do" class="test.controller.JndiController"/> -->
+    
+	<!-- ——————————————————————————————————————1—————————————————————————————— -->
+	<!--  配置HandlerMapping  根据benaname找到对应Conntroller (引用2中controller_bean)-->
+<!-- 	<bean  class="org.springframework.web.servlet.mvc.support.ControllerBeanNameHandlerMapping" />  -->
+<!-- 		<bean name="JFreeChartControllerTest"  class="com.controller.JFreeChartControllerTest" /> -->
+		
+	<!-- ——————————————————————————————————————2—————————————————————————————— -->
+	<!-- 控制类的类名访问controller 访问时类名首字母需要小写 -->
+	<!-- <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping" /> -->
+	 
+	 <!-- —————————————————————————————————————3—————————————————————————————— -->
+	<!-- 根据简单URL 来查找Controller -->
+	<!-- <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				  <prop key="/url.do">commonController</prop>
+			</props>
+		</property>
+	 </bean> -->
+</beans>

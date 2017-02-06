@@ -1,0 +1,33 @@
+.home_maintop {
+	padding: 0px 0px 1px 0px;
+	background: #78C2FF;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+.home_maintop ul {
+	height: 30px;
+	border-bottom:1px solid #fff;
+}
+.home_maintop ul li {
+	color:#ffffff;
+	list-style: none;
+	float: left;
+	margin: 0 2px 0 0;
+	font-size: 14px;
+	height: 29px;
+	line-height: 30px;
+	width: 111px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px 4px 0 0;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	background: -moz-linear-gradient(top, #eee, #ddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#0089c7),to(#54bdec));
+}
+.home_maintop .hit {
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+	color: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0089c7),to(#beeaff));
+}
